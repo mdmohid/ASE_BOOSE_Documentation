@@ -6,7 +6,7 @@ This document contains everything required to understand, use, and extend the BO
 
 ---
 
-## 📌 1. Overview
+## 📌 1. Overview:
 
 **BOOSE** is a graphical interpreter that reads simple text commands and draws shapes on a canvas.  
 It is designed for educational purposes to demonstrate:
@@ -21,7 +21,7 @@ The system supports drawing shapes, moving the cursor, setting pen colors, and r
 
 ---
 
-## 📌 2. Features
+## 📌 2. Features:
 
 - Move cursor using `moveto`
 - Draw lines using `drawto`
@@ -34,7 +34,7 @@ The system supports drawing shapes, moving the cursor, setting pen colors, and r
 
 ---
 
-## 📌 3. How BOOSE Works (Simple Explanation)
+## 📌 3. How BOOSE Works (Simple Explanation):
 
 BOOSE reads user input line-by-line:
 
@@ -49,7 +49,7 @@ BOOSE reads user input line-by-line:
 
 ---
 
-📌 4. Commands Reference
+## 📌 4. Command Reference:
 Command	Format	Description
 moveto	moveto x,y	Moves cursor to (x,y)
 drawto	drawto x,y	Draws a line from current position to (x,y)
@@ -61,7 +61,7 @@ fill on/off	fill on / fill off	Enables or disables filled shapes
 
 Note: Additional commands can be added using the command interface.
 
-📌 5. Input Rules
+## 📌 5. Input Rules:
 
 Coordinates must be comma-separated
 
@@ -76,7 +76,7 @@ Commands are case-insensitive
 Extra spaces are ignored
 
 
-📌 6. Application Structure (For Developers)
+## 📌 6. Application Structures:
 
 myBOOSEapp/
 │
@@ -94,7 +94,7 @@ myBOOSEapp/
 
 ---
 
-📌 7. Example Program
+## 📌 7. Examples Program:
 moveto 100,150
 pen 0,0,255
 circle 150
@@ -142,22 +142,22 @@ Cursor → (0,0)
 Canvas → fully cleared
 
 
-📌 10. Troubleshooting
+## 📌 9. Troubleshooting:
 Issue	Cause	Solution
 Shapes not appearing	Wrong coordinates	Keep values inside canvas size
 Color not changing	Invalid RGB values	Use numbers between 0–255
 Commands ignored	Wrong syntax	Use comma-separated format
 App crashes	Missing command factory mapping	Ensure all commands are registered
 
-📌 XML Documentation
+## 📌 10. XML Documentation:
 👉 Click here to download BOOSE XML Documentation
 
 (Upload your XML file to GitHub Pages folder to activate this link)
 
-📌 11. Author
+## 📌 11. Author:
 
 Name: MD. Mohid Alam
-Project: ASE BOOSE Assignment
+Project: ASE BOOSE Assignment-2025
 Documentation Hosted At:
 👉 https://mdmohid.github.io/ASE_BOOSE_Documentation/
 
