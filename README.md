@@ -49,62 +49,64 @@ BOOSE reads user input line-by-line:
 
 ---
 
-## 📌 4. Commands Reference
+📌 4. Commands Reference
+Command	Format	Description
+moveto	moveto x,y	Moves cursor to (x,y)
+drawto	drawto x,y	Draws a line from current position to (x,y)
+pen	pen r,g,b	Sets pen color (RGB values 0–255)
+circle	circle radius	Draws a circle with given radius
+rect	rect width,height	Draws a rectangle
+reset	reset	Clears canvas and resets cursor
+fill on/off	fill on / fill off	Enables or disables filled shapes
 
-| Command | Format | Description |
-|--------|---------|-------------|
-| **moveto** | `moveto x,y` | Moves cursor to (x,y) |
-| **drawto** | `drawto x,y` | Draws line from current position to (x,y) |
-| **pen** | `pen r,g,b` | Set pen color (RGB values 0–255) |
-| **circle** | `circle radius` | Draws a circle with given radius |
-| **rect** | `rect width,height` | Draws rectangle |
-| **reset** | `reset` | Clears canvas and resets cursor |
-| **fill on/off** | `fill on` | Enables filled shapes |
-| | | |
-_Note: Additional commands can be added using the command interface._
+Note: Additional commands can be added using the command interface.
 
----
+📌 5. Input Rules
 
-## 📌 5. Input Rules
+Coordinates must be comma-separated
 
-- Coordinates MUST be **comma-separated**  
-✔ `moveto 100,150`  
-❌ `moveto 100 150`
+✔ moveto 100,150
 
-- Pen color uses: `pen R,G,B`  
-- Commands are **case-insensitive**
-- Extra spaces are ignored
+❌ moveto 100 150
 
----
+Pen color format: pen R,G,B
 
-## 📌 6. Application Structure (For Developers)
+Commands are case-insensitive
+
+Extra spaces are ignored
+
+
+📌 6. Application Structure (For Developers)
 
 myBOOSEapp/
 │
-├── AppCanvas.cs # Drawing logic, pen color, shapes
-├── AppCommandFactory.cs # Converts text into command objects
-├── MoveToCommand.cs # Moves cursor
-├── DrawToCommand.cs # Draws line
-├── SetColourCommand.cs # Sets the pen colour in rgb format
-├── CircleCommand.cs # Draws circle
-├── RectCommand.cs # Draws rectangle
-├── WriteCommand.cs # Write texts
-├── Program.cs # Windows Form UI
+├── AppCanvas.cs            # Drawing logic, pen color, shapes
+├── AppCommandFactory.cs    # Converts text into command objects
+├── MoveToCommand.cs        # Moves cursor
+├── DrawToCommand.cs        # Draws line
+├── SetColourCommand.cs     # Sets the pen colour in RGB format
+├── CircleCommand.cs        # Draws circle
+├── RectCommand.cs          # Draws rectangle
+├── WriteCommand.cs         # Writes text on canvas
+├── Program.cs              # Windows Form UI
+
 
 
 ---
 
-## 📌 7. Example Program
-
+📌 7. Example Program
 moveto 100,150
 pen 0,0,255
 circle 150
+
 pen 255,0,0
 moveto 150,50
 rect 150,100
+
 moveto 150,200
 pen 0,0,255
 circle 250
+
 pen 255,0,0
 moveto 200,250
 rect 200,150
@@ -140,21 +142,21 @@ Cursor → (0,0)
 Canvas → fully cleared
 
 
-##📌 10. Troubleshooting
-| Issue                | Cause                   | Solution                           |
-| -------------------- | ----------------------- | ---------------------------------- |
-| Shapes not appearing | Wrong coordinates       | Keep values inside canvas size     |
-| Color not changing   | Invalid RGB             | Ensure each value is 0–255         |
-| Commands ignored     | Wrong syntax            | Use comma-separated format         |
-| App crashes          | Missing factory mapping | Ensure all commands are registered |
+📌 10. Troubleshooting
+Issue	Cause	Solution
+Shapes not appearing	Wrong coordinates	Keep values inside canvas size
+Color not changing	Invalid RGB values	Use numbers between 0–255
+Commands ignored	Wrong syntax	Use comma-separated format
+App crashes	Missing command factory mapping	Ensure all commands are registered
 
-###XML_DOCUMENTATION
+📌 XML Documentation
 👉 Click here to download BOOSE XML Documentation
 
+(Upload your XML file to GitHub Pages folder to activate this link)
 
 📌 11. Author
 
-Name: MD. MOHID ALAM
+Name: MD. Mohid Alam
 Project: ASE BOOSE Assignment
 Documentation Hosted At:
 👉 https://mdmohid.github.io/ASE_BOOSE_Documentation/
