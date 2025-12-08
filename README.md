@@ -57,7 +57,7 @@
 
         pre, code {
             background: #1b1b1b;
-            color: #00ffae;
+            color: black;
             padding: 12px;
             border-radius: 8px;
             font-size: 15px;
@@ -339,7 +339,7 @@ public void Reset()
 
         <p>You can download or view XML documentation from this link:</p>
 
-        <a class="download-btn" href="XML_DOCUMENTATION_FILE.xml">Download XML Documentation</a>
+        <a class="download-btn" href="https://github.com/mdmohid/ASE_BOOSE_Documentation/tree/main/XML_Documentation">Download XML Documentation</a>
 
         <p>(Upload your XML file into your GitHub Pages repo)</p>
     </section>
@@ -350,7 +350,7 @@ public void Reset()
         <p><b>Name:</b> MD. Mohid Alam</p>
         <p><b>Project:</b> ASE BOOSE Interpreter Assignment</p>
         <p><b>Hosted Documentation:</b>
-            <a href="https://mdmohid.github.io/docs/">https://mdmohid.github.io/docs/</a>
+            <a href="https://mdmohid.github.io/ASE_BOOSE_Documentation/">https://mdmohid.github.io/ASE_BOOSE_Documentation/</a>
         </p>
     </section>
 
