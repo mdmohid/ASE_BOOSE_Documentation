@@ -341,7 +341,7 @@ public void Reset()
 
         <a class="download-btn" href="https://github.com/mdmohid/ASE_BOOSE_Documentation/tree/main/XML_Documentation">Download XML Documentation</a>
 
-        <p>(Upload your XML file into your GitHub Pages repo)</p>
+        
     </section>
 
     <!-- Author -->
