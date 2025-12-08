@@ -1,0 +1,1129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/ContentsMerged.css" />
+    <title>Class GenericClass</title>
+</head>
+<body><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Property class</div>
+    <div id="Contents" />
+
+    
+ Main application window for BOOSE command execution.
+ Includes canvas output, user input, and a scrollable debug window.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public partial class Form1 : Form</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method StringBuilder</div>
+    <div id="Contents" />
+
+    
+ Stores all debug log text (commands + errors + info).
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private readonly StringBuilder debugLog = new StringBuilder()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor Form1</div>
+    <div id="Contents" />
+
+    
+ Initializes form, canvas, and command factory.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public Form1()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Form1_Load</div>
+    <div id="Contents" />
+
+    
+ Loads BOOSE about info and clears the canvas.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void Form1_Load(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method LoadBooseInfoIntoDebugWindow</div>
+    <div id="Contents" />
+
+    
+ Loads the BOOSE About() description into the debug window.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void LoadBooseInfoIntoDebugWindow()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method UpdateDebugWindow</div>
+    <div id="Contents" />
+
+    
+ Updates the debug window TextBox with the current log and scrolls to the bottom.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void UpdateDebugWindow()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Log</div>
+    <div id="Contents" />
+
+    
+ Adds text to debug log and refreshes the debug window.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void Log(string text)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>text</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method RunCommands</div>
+    <div id="Contents" />
+
+    
+ Runs one or more BOOSE commands.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void RunCommands(string input)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>input</div><div class='ParameterCommentContainer'>
+Raw command text from user.
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method button1_Click</div>
+    <div id="Contents" />
+
+    
+ Run button: executes commands from both textboxes.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void button1_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method button2_Click</div>
+    <div id="Contents" />
+
+    
+ Clear button: clears canvas and debug window.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void button2_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method textBox2_KeyDown</div>
+    <div id="Contents" />
+
+    
+ Executes single command when pressing Enter in textBox2.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void textBox2_KeyDown(object sender, KeyEventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method textBox1_TextChanged</div>
+    <div id="Contents" />
+
+    
+ textbox1 which is used for multiline commands
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void textBox1_TextChanged(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method textBox2_TextChanged</div>
+    <div id="Contents" />
+
+    
+ textbox2 which is used for single line command
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void textBox2_TextChanged(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method pictureBox1_Click</div>
+    <div id="Contents" />
+
+    
+ picturebox1 which used to show output of commands
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void pictureBox1_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method fileToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ file menu strip item
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void fileToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method newCanvasToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ clears the canvas as same as clear button
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void newCanvasToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method openToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ load a text file with BOOSE commands
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void openToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method saveToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ save current commands from textboxes
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void saveToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method exitToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ close the windows form application
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void exitToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method editToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ edit menu strip item
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void editToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method copyToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ copy the commands
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void copyToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method cutToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ cut or erase the commands
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void cutToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method pasteToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ paste the commands in textbox
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void pasteToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method commandsToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ commands menu item
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void commandsToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method runToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ execute commands as run button
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void runToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method clearToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ clear the drawing canvas as clear button
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void clearToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method helpToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ help menu item
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void helpToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method aboutBOOSEToolStripMenuItem_Click</div>
+    <div id="Contents" />
+
+    
+ shows BOOSE info
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void aboutBOOSEToolStripMenuItem_Click(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method documentationToolStripMenuItem_Click_1</div>
+    <div id="Contents" />
+
+    
+ opens the links of BOOSE documentatio
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private void documentationToolStripMenuItem_Click_1(object sender, EventArgs e)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>sender</div><div class='ParameterCommentContainer'>
+
+</div>
+<div class='CommentParameterName'>e</div><div class='ParameterCommentContainer'>
+
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+</p>
+</body>
+</html>

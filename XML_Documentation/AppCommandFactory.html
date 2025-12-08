@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/ContentsMerged.css" />
+    <title>Class GenericClass</title>
+</head>
+<body><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Class AppCommandFactory</div>
+    <div id="Contents" />
+
+    
+ Factory class that creates BOOSE command instances from text input.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    internal class AppCommandFactory : ICommandFactory</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field canvas</div>
+    <div id="Contents" />
+
+    
+ The canvas on which commands will operate.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private AppCanvas canvas</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor AppCommandFactory</div>
+    <div id="Contents" />
+
+    
+ Initializes a new instance of <a href="" >AppCommandFactory</a> with the specified canvas.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public AppCommandFactory(AppCanvas canvas)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>canvas</div><div class='ParameterCommentContainer'>
+The canvas object used by commands for drawing.
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method MakeCommand</div>
+    <div id="Contents" />
+
+    
+ Creates an <a href="" >ICommand</a> instance based on the provided command string.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public ICommand MakeCommand(string commandType)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>commandType</div><div class='ParameterCommentContainer'>
+The command string, e.g., "drawto 100,200".
+</div>
+
+    <div class='CommentHeader'>Return Value</div>
+<div class='ParameterCommentContainer'>
+An instance of <a href="" >ICommand</a> corresponding to the parsed command.
+</div>
+
+    
+    
+    
+<div id='SectionHeader1' class='SectionHeader'>
+   <img id='SectionExpanderImg1' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' /> 
+   <span class='SectionHeader'>
+       <span class='ArrowCursor'>
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id='SectionContainerDiv1' class='SectionContainer'>
+<table class='MembersTable'>
+<col width='25%' />
+<col width='75%' />
+<tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class='PseudoLink'>Exception</span></td>
+<td>Thrown if the command is empty, unknown, or contains invalid arguments.</td>
+</tr>
+</table
+</div>
+</div>
+
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method ParseInt</div>
+    <div id="Contents" />
+
+    
+ Parses an integer argument from the arguments array at the specified index.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    private int ParseInt(string[] args, int index)</pre></td></tr></tbody></table>
+    
+    <div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>args</div><div class='ParameterCommentContainer'>
+Array of argument strings.
+</div>
+<div class='CommentParameterName'>index</div><div class='ParameterCommentContainer'>
+Index of the argument to parse.
+</div>
+
+    <div class='CommentHeader'>Return Value</div>
+<div class='ParameterCommentContainer'>
+The parsed integer value.
+</div>
+
+    
+    
+    
+<div id='SectionHeader1' class='SectionHeader'>
+   <img id='SectionExpanderImg1' src='C:\Users\MOHID AALAM\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' /> 
+   <span class='SectionHeader'>
+       <span class='ArrowCursor'>
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id='SectionContainerDiv1' class='SectionContainer'>
+<table class='MembersTable'>
+<col width='25%' />
+<col width='75%' />
+<tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class='PseudoLink'>Exception</span></td>
+<td>
+ Thrown if the argument is missing at the specified index or cannot be parsed as an integer.
+ </td>
+</tr>
+</table
+</div>
+</div>
+
+    
+    
+
+</div>
+</p>
+</body>
+</html>
