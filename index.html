@@ -141,6 +141,13 @@
             <li>OOP design principles</li>
             <li>Canvas rendering using <b>AppCanvas</b></li>
             <li>Command factories using <b>ICommandFactory</b></li>
+            <li>CommandFactory (Factory Design pattern) using <b>Factory Design Patterns</b></li>
+            <li>Singleton using <b>Singleton Design Patterns</b></li>
+            <li>Replaced Variables<b>Int, Array, Reals and Boolean</b></li>
+            <li>Control Flow and Loops<b>If-else While and For</b></li>
+            <li>Methods Commands<b>Method and Call</b></li>
+            <li>Additional<b>Text-Based Version i.e Console for the output results and debugging</b></li>
+            <li>Additional<b>Extension to BOOSE itself i.e some additionl geographical shapes with additional unrestricted commands</b></li>
             <li>Unit testing (MSTest)</li>
             <li>Extensible command structure</li>
         </ul>
@@ -152,10 +159,18 @@
         <ul>
             <li>Move cursor using <b>moveto</b></li>
             <li>Draw lines using <b>drawto</b></li>
-            <li>Draw shapes — <b>circle</b> and <b>rect</b></li>
+            <li>Draw shapes — <b>circle</b> and <b>rectangle</b> and <b>triangle</b> and <b>square</b></li>
             <li>Set pen color with RGB values</li>
-            <li>Reset canvas to default</li>
             <li>Enable/disable filled shapes</li>
+            <li>Reset canvas to default</li>
+            <li>Singleton patterns for creation of single object instance</li>
+            <li>Factory design patterns for command creation</li>
+            <li>Command design pattern for execution of command objects</li>
+            <li>Replaced Variables for the execution of integers, reals, array and boolean</li>
+            <li>Control Flow and Loops for the execution of if, if-else, while and for</li>
+            <li>Replaced Methods for the execution of call and method commands</li>
+            <li>Additional features of text-based and extension to BOOSE itself</li>
+            <li>Unit Testing for MS-test</li>
             <li>XML Documentation Generated from C#</li>
         </ul>
     </section>
@@ -253,12 +268,26 @@ circle 100
 myBOOSEapp/
 │── AppCanvas.cs
 │── AppCommandFactory.cs
-│── MoveToCommand.cs
+│── AppSingleton.cs
 │── DrawToCommand.cs
-│── SetColourCommand.cs
+│── AssignmentCommand.cs
+│── CallCommand.cs
 │── CircleCommand.cs
+│── DeclareVariableCommand.cs
+│── ExpressionEvaluator.cs
+│── ForCommand.cs
+│── IfCommand.cs
+│── MethodCommand.cs
+│── MovetoCommand.cs
+│── PeekCommand.cs
+│── PokeCommand.cs
 │── RectCommand.cs
+│── SetColourCommand.cs
+│── SquareCommand.cs
+│── TriCommand.cs
+│── WhileCommand.cs
 │── WriteCommand.cs
+│── Form1.cs
 │── Program.cs
 </pre>
     </section>
